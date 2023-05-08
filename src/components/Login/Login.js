@@ -24,6 +24,7 @@ const Login = () => {
     setSubmitButtonDisabled(true);
 
     //auth, email and password
+    //just cheking if the auth works fine or not
 
     signInWithEmailAndPassword(auth, values.email, values.password)
       .then(async (res) => {
